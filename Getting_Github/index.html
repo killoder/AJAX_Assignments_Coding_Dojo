@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Getting Github</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="text-center">
+
+    <h1 class="text-center">Getting Github</h1>
+    <div class="text-center p-3">
+        <input type="text" oninput="getAdion(this)" name="adion" hidden>
+        <button class="btn btn-primary" onclick="triggerAPI()">Get user Adion!</button>
+    </div>
+    <div class="text-center p-3">
+        <input class="ser" type="text" oninput="getUsername(this)" name="username">
+        <button class="btn btn-success" onclick="search()">GO!</button>
+    </div>
+    <div id="cards" class="text-center p-3">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

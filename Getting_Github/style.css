@@ -1,0 +1,22 @@
+.card {
+    height: 280px;
+    width: 500px;
+    display: flex;
+    border: 2px solid #999;
+    align-items: center;
+    padding: 20px;
+    background-color: azure;
+    color: black;
+    margin: auto;
+}
+
+.card img {
+    height: 128px;
+    border-radius: 50%;
+    margin-right: 40px;
+    margin: auto;
+}
+
+.nope {
+    margin-bottom: 20px;
+}
